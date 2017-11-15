@@ -1,0 +1,27 @@
+{
+  "name": "node-paperclip-file",
+  "version": "1.0.0",
+  "description": "file storage module for node-paperclip",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ballantyne/node-paperclip-file.git"
+  },
+  "keywords": [
+    "file",
+    "system"
+  ],
+  "author": "Scott Ballantyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ballantyne/node-paperclip-file/issues"
+  },
+  "homepage": "https://github.com/ballantyne/node-paperclip-file#readme",
+  "dependencies": {
+    "klass": "^1.4.1",
+    "underscore": "^1.8.3"
+  }
+}
