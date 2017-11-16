@@ -78,7 +78,6 @@ var Storage                  = klass(function(options) {
     var key                  = fieldname + "-" + hash + "." + extension;
     key                      = path.join(os.tmpdir(), key);
     
-
     return key;
   },
 
