@@ -70,7 +70,7 @@ var Storage                  = klass(function(options) {
 
   generateKey: function(fieldname, filename, next) {
     var now = new Date().getTime().toString();
-    var extension            = filename.split('.').pop();
+    var extension            = path.extname(filename);
     const hash               = crypto.createHmac('sha256', fieldname+now)
       .update(filename)
       .digest('hex');
