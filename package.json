@@ -23,5 +23,8 @@
   "dependencies": {
     "klass": "^1.4.1",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
   }
 }
