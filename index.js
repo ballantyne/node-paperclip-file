@@ -58,7 +58,7 @@ var Storage                  = klass(function(options) {
 }).methods({
 
   host: function() {
-    return "";
+    return "/";
   },
 
   stream: function(data, key, next) {

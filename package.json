@@ -1,6 +1,6 @@
 {
   "name": "node-paperclip-file",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "file storage module for node-paperclip",
   "main": "index.js",
   "scripts": {
