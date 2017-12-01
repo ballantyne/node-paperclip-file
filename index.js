@@ -57,6 +57,10 @@ var Storage                  = klass(function(options) {
 
 }).methods({
 
+  host: function() {
+    return "";
+  },
+
   stream: function(data, key, next) {
     if (typeof stream == 'string') stream = fs.createReadStream(data);
     var writeStream          = fs.createWriteStream(key); 
